@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Poppins",sans-serif;
+}
+body{
+  background: #dfe9f5;
+}
+.calculadora{
+  width: 350px;
+  margin: 20px auto;
+  border-radius: 10px;
+  text-align: center;
+  background: #fff;
+  padding-bottom: 10px;
+  box-shadow: 0 20px 35px grba(0,0,0,0.1);
+  border: 2px solid black;
+}
+.ventana{
+  border-bottom: 2px solid black;
+}
+input[type="button"]:hover {
+    background-color: lightgrey;
+}
+input[type="button"]:active {
+    background-color: bisque;
+}
+input[type="text"]{
+  width: 90%;
+  font-size: 28px;
+  padding: 25px 5px;
+  margin: 5px 2px 5px 2px;
+  text-align: right;
+  color: black;
+  background: transparent;
+}
+input::placeholder{
+  color: black;
+}
+input[type="button"]{
+  width: 70px;
+  height: 70px;
+  margin: 6px;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 10px;
+}
